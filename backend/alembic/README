@@ -1,0 +1,13 @@
+Alembic Migrations
+==================
+
+Este directorio contiene las migraciones de base de datos usando Alembic.
+
+Para crear una nueva migración:
+    alembic revision --autogenerate -m "Descripción de la migración"
+
+Para aplicar migraciones:
+    alembic upgrade head
+
+Para revertir migraciones:
+    alembic downgrade -1
